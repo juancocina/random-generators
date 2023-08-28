@@ -1,0 +1,44 @@
+The basis for this idea comes from the Behringer TD-3
+
+Its an analog bass synthesizer. 
+
+Part of its function includes a sequencer. It's somewhat difficult to program but
+with some practice, anyone can get it down. 
+
+Another part of its function is being able to clear a pattern, and generate a 
+random pattern.
+
+What I don't like about it, is that it doesn't have a selection for key
+or mode. It really is a random pattern.
+
+I want to create a console application that would allow me to select 
+A) key (i.e., D major, F minor)
+B) mode (i.e., Dorian, Lydian)
+C) steps (i.e., 4 steps/notes, 5 steps/notes, 6 steps/notes... 16 steps/notes)
+
+ ... I can add more later like (accents, note durations, holds, etc)
+
+/* A key is considered home base
+A mode is what notes are going to be played with a key as its base */
+
+With these three selections, the console application shall spit out a certain
+number of steps that would result in a melody of some sorts. It would be my job
+to interpret the results and program into the Behringer TD-3's sequencer.
+This includes, the notes, steps, accents, holds, durations, and octaves.
+
+This shouldn't be too difficult of a application to make.
+It involves deepening my knowledge of music theory (in order to code it in) and the
+patience to code the solution.
+
+What is the big picture question?
+Given a Key, Mode, and Number of Steps, generate a random bassline.
+
+Very hard, but I know that its going to be super cool when its done.
+My deadline is this wednesday, but its not feeling realistic.
+
+I really could call off of work at some point to keep working on it
+
+
+In the meantime, I should watch a youtube video about it if I get the chance.
+
+Should I go back to school?

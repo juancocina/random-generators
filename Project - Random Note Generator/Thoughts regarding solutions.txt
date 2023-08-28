@@ -1,0 +1,59 @@
+I think this project would definitely harden my knowledge on classes.
+As well as my knowledge of music theory.
+
+I think i could create a struct or class called Key 
+                                         called Mode.
+
+These two classes would be responsible for holding the information that
+would then be chosen at random 
+
+For example, given the option to choose the Key C and its Major representation:
+The C Major scale would have its notes chosen at random.
+
+For example, given the chosen options Key A and its Lydian representation:
+The A Lydian scale would have its notes choen at random.
+
+The difficult thing here would be storing the notes.
+Because they all use the 12 notes that exist.
+It's just represented in different manors.
+
+I could definitely just have a vector for each Key/Mode combination, but
+that might take up a lot of code space. Retrieval would definitely not be a problem though.
+
+Whereas storing all NOTES in one vector, and having notes eliminated, might save some code
+space, that algorithm would be more complicated. 
+
+I don't think theres a very fast solution to generating notes here..
+
+I'm going to watch music theory videos and think about how to store the keys/modes
+
+
+==========
+
+As of right now I'm a bit worried that i'm going to have to make a 
+function for each scale
+
+I know that these random number generators are able to create
+a random number between 1-12
+
+But lets say we're using the scale D minor natural: 3 5 6 7 10 11 1 3
+At no point do we touch 8, 9, or 2 
+
+So how to we exclude those
+
+Well since [3, 5, 6, 7, 10, 11, 1, 3] is also an array
+Pick a number between 0-7 for THIS ARRAY
+            0, 1, 2, 3, 4,   5, 6, 7
+
+This still means I have to create an array for each scale though
+
+Well lets get to work
+
+=================
+
+Alright I got the random number generator working as of right now.
+
+I think the goal for the next time I sit down and code is to create the arrays
+for each SCALE 
+Probably gonna be hashmap since the RNG will print out a number and I can just lookup 
+the value at that number in the hashmap...

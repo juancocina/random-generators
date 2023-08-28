@@ -1,0 +1,65 @@
+I'm thinking something like this
+
+    C#/Db  D#/Eb          F#/Gb   G#/Ab    A#/Bb
+C/B#     D       E/Fb F/E#      G        A       B/Cb
+
+ 1    2  3   4    5    6   7    8   9   10   11   12
+ 0    1  2   3    4    5   6    7   8    9   10   11
+
+
+ So I could have an array that holds all the NOTES as STRINGS
+
+ As well as an array for each SCALE that holds INTEGERS
+ 
+ For example D minor natural would be: 
+ 3 5 6 8 10 11 1 3
+
+ The RNG would have to generate numbers given THAT ARRAY OF NUMBERS 
+
+ So if the RNG chooses a 3 step PATTERN of 3 1 10,
+
+ The output shall be: "D, C, A"
+
+ Once we include a RANDOM GENERATOR for NOTE TIE REST
+ We could have another VECTOR of STRINGS:
+    [NOTE, TIE, REST]
+        0   1    2
+For a NOTE, we shall not attatch anything to the NOTE
+For a TIE, we shall attatch '*' to the NOTE
+For a REST, we shall attatch '-' to the NOTE
+
+THE RNG should also choose 0-2 for each note 
+
+The final output shall be, for example: "D, C*, A-"
+
+
+The last thing really is to make the final decision on the way i'm 
+going to store the scales
+=========================================================
+
+0. Create scales keys
+
+1. Display options
+
+2. Ask user for input
+
+3. Generate a random PATTERN of numbers, of size STEPS
+
+4. Based off of the pattern of numbers that are generated, translate that 
+to a string 
+    a. after going from number to string, generate the [NOTE, TIE, REST] and 
+    concatonatae it to the string
+
+5. output that string 
+
+=========================================================
+
+We definitely have to generate the random numbers first
+It becomes a question of, when do we generate the [NOTE, TIE, REST]
+
+Right now my goal for the next time i code is to finish typing up the minor scales
+And then start working on the input...
+
+======================
+
+Now I have to work on taking in the inputs 
