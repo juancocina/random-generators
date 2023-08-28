@@ -6,4 +6,6 @@ that would then produce sound.
 
 
 ====
-Your computer needs to have the Projucer setup and ready to go, in order to run this application
+Your computer needs to have the Projucer setup and ready to go, in order to run this application.
+
+You can view a video of the working build on my portfolio @ https://juancocina.github.io/
